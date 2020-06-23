@@ -4,7 +4,7 @@ switchConditional('manzana');
 /* IF - ELSE IF - ELSE */
 function ifConditional(fruta: string) {
   if (fruta === 'manzana') {
-    console.log('Soy una manzana');
+    console.error('Soy una manzana');
   } else if (fruta === 'pera') {
     console.log('Soy una pera');
   } else {

@@ -15,24 +15,22 @@ var objeto = [
         edad: 19
     },
 ];
-array.forEach(function (lambda) {
-    console.log(lambda);
+function fun(persona) { }
+objeto.forEach(function (persona) {
+    console.log(persona);
 });
-/*
-let count = 0;
-
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
-}
-
-console.log('**');
-
-while (count < array.length) {
-  console.log(array[count]);
-  count++;
-}
-
-for (const persona of objeto) {
-  console.log(persona);
-}
-*/ 
+var count = 0;
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i]);
+// }
+// console.log('**');
+// while (count < array.length) {
+//   console.log(array[count]);
+//   count++;
+// }
+// for (const persona of objeto) {
+//   console.log(persona.nombre);
+// }
+// do {
+//   /* codigo */
+// } while (condition);

@@ -16,7 +16,8 @@ const objeto: DatosPersona[] = [
   },
 ];
 
-array.forEach(console.log);
+function fun(persona: any) {}
+objeto;
 
 let count = 0;
 
@@ -32,7 +33,7 @@ let count = 0;
 // }
 
 // for (const persona of objeto) {
-//   console.log(persona);
+//   console.log(persona.nombre);
 // }
 
 // do {
