@@ -3,3 +3,8 @@ export interface Persona {
   nombre: string;
   edad?: number;
 }
+
+export interface DatosPersona {
+  nombre: string;
+  edad: number;
+}
